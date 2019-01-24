@@ -2,14 +2,14 @@ package com.example.demo.plugin;
 
 import org.springframework.stereotype.Component;
 
-import com.example.demo.core.Capability;
+import com.example.demo.core.DemoService;
 
 @Component
-public class PluginCapability implements Capability {
+public class PluginService implements DemoService {
 
 	@Override
 	public String getName() {
-		return "Plugin Capability";
+		return "Plugin Service";
 	}
 
 }

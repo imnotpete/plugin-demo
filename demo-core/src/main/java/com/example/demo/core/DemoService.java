@@ -1,6 +1,6 @@
 package com.example.demo.core;
 
-public interface Capability {
+public interface DemoService {
 	String getName();
 
 }

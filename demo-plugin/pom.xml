@@ -8,9 +8,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 	</parent>
-	<groupId>com.example</groupId>
 	<artifactId>demo-plugin</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>demo-plugin</name>
 	<description>Demo project for Spring Boot</description>
 

@@ -3,11 +3,11 @@ package com.example.demo.core;
 import org.springframework.stereotype.Component;
 
 @Component
-public class CoreCapability implements Capability {
+public class CoreService implements DemoService {
 
 	@Override
 	public String getName() {
-		return "Core Capability";
+		return "Core Service";
 	}
 
 }

@@ -8,7 +8,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-import com.example.demo.core.Capability;
+import com.example.demo.core.DemoService;
 
 @SpringBootApplication
 @ComponentScan("com.example.demo")
@@ -19,14 +19,14 @@ public class DemoApplication implements CommandLineRunner {
 	}
 	
 	@Autowired
-	private List<Capability> capabilities;
+	private List<DemoService> services;
 
 	@Override
 	public void run(String... args) throws Exception {
 		System.out.println("\n\n\n\n");
 
-		for (Capability capability : capabilities) {
-			System.out.println(String.format("name [%s]", capability.getName()));
+		for (DemoService service : services) {
+			System.out.println(String.format("name [%s]", service.getName()));
 		}
 
 		System.out.println("\n\n\n\n");
