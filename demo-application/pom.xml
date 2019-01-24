@@ -8,9 +8,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 	</parent>
-	<groupId>com.example</groupId>
 	<artifactId>demo-application</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>demo-application</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -42,6 +40,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<layout>ZIP</layout>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
